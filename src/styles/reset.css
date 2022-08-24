@@ -1,0 +1,18 @@
+body, main, figure, img , figcaption, form, label, input {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: #5163D3;    
+    --write: #eeeeee;    
+    --blueLigth: #D7E4FB;
+}
+
+ul,ol{
+    list-style: none;
+}
