@@ -15,17 +15,20 @@
       const image = document.createElement('img')
       const linkCategoria = document.createElement('a')
       const h3Titulo = document.createElement('h3')
-      const pResumo = document.createElement('p')       
+      const pResumo = document.createElement('p')   
+      const span = document.createElement('span')    
       //nao precisa trabalhar com localStorage
       //const user = localStorage.getItem('') 
   
-  
+      image.classList.add("imgLi")
       image.src = News.imagem
       linkCategoria.innerText = News.categoria
+      linkCategoria.src = "#"
       h3Titulo.innerText = News.titulo
-      pResumo.innerText = News.resumo        
+      pResumo.innerText = News.resumo   
+      span.innerText = `Fonte: ${News.fonte}`     
  
-      li.append( image, linkCategoria, h3Titulo, pResumo)
+      li.append( image, linkCategoria, h3Titulo, pResumo, span)
 
       return li
     }
