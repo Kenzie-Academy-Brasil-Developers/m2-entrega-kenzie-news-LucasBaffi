@@ -9,8 +9,12 @@ body, main, figure, img , figcaption, form, label, input {
 
 :root{
     --blue: #5163D3;    
-    --write: #eeeeee;    
+    --white: #eeeeee;    
     --blueLigth: #D7E4FB;
+    --cinza: #EEEEEE;
+    --black:#1B1C1E;
+    --whiteLigth: git#ffffff;
+    --blackligth:#606163;
 }
 
 ul,ol{
